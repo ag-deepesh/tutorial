@@ -37,7 +37,7 @@ if(params.help){
 Channel
 	.fromPath(params.query)
 	.splitFasta(by:1, file:true )
-	.into{ queryFile_ch }
+	.set{ queryFile_ch }
 
 
 process runBlast {
