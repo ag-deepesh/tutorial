@@ -42,6 +42,8 @@ Channel
 
 process runBlast {
 
+container = 'ncbi/blast'
+
 input:
 path(queryFile) from queryFile_ch
 
