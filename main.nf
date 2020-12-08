@@ -32,7 +32,7 @@ if(params.help){
 	helpMessage()
 	exit 0
 }
-
+//end of file
 
 Channel
 	.fromPath(params.query)
